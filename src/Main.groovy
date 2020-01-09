@@ -1,7 +1,7 @@
-import task1.Task1
+import task1.TestTask1
 
 class Main {
-    static void main(String[] args) {
-        Task1.tests();
+    def static main(args) {
+        TestTask1.runTests()
     }
 }
