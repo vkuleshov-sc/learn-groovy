@@ -21,6 +21,6 @@ class MyFirstSpecification extends Specification {
         when:
         answer = person1 + person2
         then:
-        answer == 59
+        answer == 591
     }
 }

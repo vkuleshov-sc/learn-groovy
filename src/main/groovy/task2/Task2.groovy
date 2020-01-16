@@ -1,13 +1,14 @@
 package task2
 
+import groovy.io.FileType
 import groovy.xml.MarkupBuilder
 
 class Task2 {
     def static scanDir(String path) {
         def dir = new File(path)
         def res = [:]
-        dir.eachFileRecurse {
-            if (it.name.contains('groovy.')) {
+        dir.eachFileRecurse(FileType.FILES) {
+            if (it.name ==~ ~/.*groovy\.[^.]+/) {
                 if (res[it.name]) {
                     res[it.name].quantity++
                     res[it.name].size += it.size() / 1000 / 1024

@@ -5,9 +5,9 @@ import task4.Person
 
 println("4^5 = ${4**5}")
 
-def printValue = { value -> println(value ?: "no value") }
+def printValue = { value -> println(value != null ? value : "no value") }
 print("printValue(5): ")
-printValue(5)
+printValue(0)
 print("printValue(null): ")
 printValue(null)
 

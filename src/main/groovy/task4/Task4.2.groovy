@@ -5,5 +5,3 @@ def closure = { Integer num, String str, Closure action ->
 }
 def subClosure = { num, str -> print(str * num) }
 closure(7, 'Hello World!!!\n', subClosure)
-
-

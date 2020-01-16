@@ -1,1 +1,2 @@
+assert x
 println(x)

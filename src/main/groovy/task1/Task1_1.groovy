@@ -2,27 +2,25 @@ package task1
 
 class Task1_1 {
     static def getOnlyLowerCaseWords(String str) {
-        str.split(" ").
+        str.split().
             findAll {
                 it == it.toLowerCase()
             }
     }
 
     static def getPartOfString(String str) {
-        str.toCharArray()[11..16].join("")
+        str[11..16]
     }
 
     static def firstLetterToUpperCase(String str) {
         str.split(" ").collect { word ->
-            def tmp = word.toCharArray()
-            tmp[0] = tmp[0].toUpperCase()
-            new String(tmp)
+            word.capitalize()
         }.join(" ")
     }
 
     static def findPalindromes(String str, maxUniqueSymbols) {
         str.split(" ").findAll { word ->
-            word.toCharArray().collect().unique().size() < maxUniqueSymbols && word.reverse() == word
+            word.collect().unique().size() < maxUniqueSymbols && word.reverse() == word
         }
     }
 

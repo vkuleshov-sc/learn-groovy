@@ -76,7 +76,7 @@ class TestTask1 {
             }
         }
         printTestResult(
-            "Should print characters from the 11th to the 16th (taking into account that the string is more than 16 characters): ",
+            "Should change in all words of the string the first letter to capital: ",
             failedCases
         )
     }

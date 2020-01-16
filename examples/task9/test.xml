@@ -1,24 +1,59 @@
 <xml>
-    <field name="SOME NAME 1">
+    <field name="SOME NAME">
         SOME_VALUE_1
     </field>
-    <field name="SOME NAME 2">
-        SOME_VALUE_2
+    <field name="SOME NAME">
         SOME_VALUE_2
     </field>
-    <bigfield>
-        SOME_VALUE_1
-    </bigfield>
-    <field name="SOME NAME 3">
+    <field name="SOME NAME">
         SOME_VALUE_3
     </field>
-    <field name="SOME NAME 1">
+    <window name="SOME NAME">
+        SOME_VALUE_3
+    </window>
+    <field name="SOME NAME">
+        SOME_VALUE_4
+    </field>
+    <window name="SOME NAME">
+        SOME_VALUE_3
+    </window>
+    <field name="SOME NAME">
+        SOME_VALUE_5
+    </field>
+    <field name="SOME NAME">
+        SOME_VALUE_6
+    </field>
+    <window name="SOME NAME">
+        SOME_VALUE_3
+    </window>
+    <field name="SOME NAME">
+        SOME_VALUE_7
+    </field>
+    <field name="SOME NAME">
+        SOME_VALUE_8
+    </field>
+    <field name="SOME NAME">
         SOME_VALUE_1
     </field>
-    <window>
-        SOME_VALUE_1
-    </window>
-    <field name="SOME NAME 4">
+    <field name="SOME NAME">
+        SOME_VALUE_2
+    </field>
+    <field name="SOME NAME">
+        SOME_VALUE_3
+    </field>
+    <field name="SOME NAME">
         SOME_VALUE_4
+    </field>
+    <field name="SOME NAME">
+        SOME_VALUE_5
+    </field>
+    <field name="SOME NAME">
+        SOME_VALUE_6
+    </field>
+    <field name="SOME NAME">
+        SOME_VALUE_7
+    </field>
+    <field name="SOME NAME">
+        SOME_VALUE_8
     </field>
 </xml>

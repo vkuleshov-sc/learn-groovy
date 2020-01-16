@@ -6,12 +6,7 @@ class Task1_2 {
     }
 
     static def getFindMinAndMax(List arr) {
-        def res = [arr[0], arr[0]]
-        arr.each {
-            res[0] = res[0] < it ? res[0] : it
-            res[1] = res[1] > it ? res[1] : it
-        }
-        return res
+        return [arr.min(), arr.max()]
     }
 
     static increaseNumbers(List arr){
@@ -22,8 +17,6 @@ class Task1_2 {
     }
 
     static getCommonNumbers(List arr1, List arr2){
-        arr1.findAll {
-            arr2.contains(it)
-        }.unique()
+        arr1.intersect(arr2).unique()
     }
 }
